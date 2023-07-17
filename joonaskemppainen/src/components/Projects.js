@@ -1,4 +1,6 @@
-import laptopImage from "../resources/laptop.png"
+import blogapp from "../resources/blogapp.png"
+import weatherapp from "../resources/weatherapp.png"
+import calculatorapp from "../resources/calculatorapp.png"
 
 function Projects() {
     return (
@@ -7,63 +9,66 @@ function Projects() {
             <div className="projects-container">
                 <div className="project-container">
                     <div className="project-image">
-                        <img src={laptopImage} alt="laptop" />
+                        <img src={blogapp} alt="laptop" />
                     </div>
                     <div className="project-info">
+                        <h3>Blog app</h3>
                         <div className="link-left">
-                            <a href="#projects">
+                            <a href="https://bloglist-zmqe.onrender.com/" target="_blank" rel="noreferrer">
                                 <p className="live">Live</p>
                             </a>
                         </div>
                         <div className="link-left">
-                            <a href="#projects">
+                            <a href="https://github.com/JoonasKemppainen/PORTFOLIO/tree/main/bloglist" target="_blank" rel="noreferrer">
                                 <p className="github">Github</p>
                             </a>
                         </div>
                         <br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat maximus lorem eu porta. Donec tellus felis, facilisis at efficitur nec, malesuada ut velit. Pellentesque sit amet tempor justo, a blandit purus. Sed euismod lectus non sapien luctus dapibus. Nam consectetur venenatis odio nec pulvinar. Proin sit amet pharetra massa, id porta neque.</p>
+                        <p>My blog app, developed as part of the Full Stack Open course, combines the power of React for the frontend, Node.js with Express for the backend, and MongoDB for the database. It allows you to create, like, and comment on blogs.</p>
                     </div>
                 </div>
             </div>
             <div className="projects-container">
                 <div className="project-container">
+                    <div className="project-image">
+                        <img src={weatherapp} alt="laptop" />
+                    </div>
                     <div className="project-info">
-                        <div className="link-right">
-                            <a href="#projects">
+                        <h3>Weather app</h3>
+                        <div className="link-left">
+                            <a href="https://weather-m6m5.onrender.com/" target="_blank" rel="noreferrer">
                                 <p className="live">Live</p>
                             </a>
                         </div>
-                        <div className="link-right">
-                            <a href="#projects">
+                        <div className="link-left">
+                            <a href="https://github.com/JoonasKemppainen/PORTFOLIO/tree/main/app-weather" target="_blank" rel="noreferrer">
                                 <p className="github">Github</p>
                             </a>
                         </div>
                         <br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat maximus lorem eu porta. Donec tellus felis, facilisis at efficitur nec, malesuada ut velit. Pellentesque sit amet tempor justo, a blandit purus. Sed euismod lectus non sapien luctus dapibus. Nam consectetur venenatis odio nec pulvinar. Proin sit amet pharetra massa, id porta neque.</p>
+                        <p>My weather app, built with React and powered by the WeatherAPI.com API, allows you to effortlessly find the weather conditions of any city. With a user-friendly interface and seamless integration of the WeatherAPI.com API, this app provides accurate and real-time weather data for cities worldwide.</p>
                     </div>
-                    <div className="project-image">
-                        <img src={laptopImage} alt="laptop" />
-                    </div> 
                 </div>
             </div>
             <div className="projects-container">
                 <div className="project-container">
                     <div className="project-image">
-                        <img src={laptopImage} alt="laptop" />
+                        <img src={calculatorapp} alt="laptop" />
                     </div>
                     <div className="project-info">
+                        <h3>Calculator app</h3>
                         <div className="link-left">
-                            <a href="#projects">
+                            <a href="https://calculator-ulbm.onrender.com/" target="_blank" rel="noreferrer">
                                 <p className="live">Live</p>
                             </a>
                         </div>
                         <div className="link-left">
-                            <a href="#projects">
+                            <a href="https://github.com/JoonasKemppainen/PORTFOLIO/tree/main/app-calculator" target="_blank" rel="noreferrer">
                                 <p className="github">Github</p>
                             </a>
                         </div>
                         <br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat maximus lorem eu porta. Donec tellus felis, facilisis at efficitur nec, malesuada ut velit. Pellentesque sit amet tempor justo, a blandit purus. Sed euismod lectus non sapien luctus dapibus. Nam consectetur venenatis odio nec pulvinar. Proin sit amet pharetra massa, id porta neque.</p>
+                        <p>My calculator app, developed using React, offers a straightforward solution for basic mathematical calculations. With a user-friendly interface, it simplifies addition, subtraction, multiplication, and division operations.</p>
                     </div>
                 </div>
             </div>
