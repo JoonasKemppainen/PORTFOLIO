@@ -1,5 +1,5 @@
 import axios from "axios"
-const baseUrl = "http://api.weatherapi.com/v1/current.json?"
+const baseUrl = "https://api.weatherapi.com/v1/current.json?"
 
 
 const key = process.env.REACT_APP_API_KEY
