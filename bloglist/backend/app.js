@@ -13,6 +13,7 @@ const usersRouter = require("./controllers/users")
 const loginRouter = require("./controllers/login")
 
 app.use(cors())
+app.use(express.static("build"))
 app.use(express.json())
 app.use(middleware.tokenExtractor)
 app.use(middleware.userExtractor)
