@@ -77,7 +77,7 @@ const Blog = () => {
 			<Form onSubmit={handleSubmit}>
 				<FormGroup>
 					<Form.Control onChange={handleChange} value={comment} />
-					<Button>add comment</Button>
+					<Button type="button" onClick={handleSubmit}>add comment</Button>
 				</FormGroup>				
 			</Form>
 			<br />
